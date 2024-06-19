@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+ 
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=115635&format=png&color=000000"type="image/png">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>A</span>kathiravan <span>Frontend</span>Developer</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Kathiravan <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <p>Today, every business should have a website.
+          No matter how small or large your business, having a website is must have at this time.
+          Having a website help you to maintain your online presence.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://th.bing.com/th/id/R.f94754630fec559fbefb40e612a70716?rik=zXRn1deSoIhikA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fweb-development-png-image-850.png&ehk=8jNMDltPVTNIpJ27AmF6nQxq9qzzJQVdRePlsMGgYtE%3d&risl=&pid=ImgRaw&r=0" /></div>
+          <h2>Web Design</h2>
+          <p>Build a Login Authenticator: Practice creating a login page with authentication features. You can use HTML, CSS, and JavaScript to handle user logins and sessions.
+            Create a To-Do List: Combine HTML, CSS, JavaScript, and UX design to build a functional to-do list.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/jpeg;base64,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" /></div>
+          <h2>Python</h2>
+          <p>Python is beginner-friendly, but debugging remains essential. Common scenarios include off-by-one errors with the range() function, unclosed files, or unexpected results from division by negative numbers. 
+            Debugging techniques include printing variable values, altering program paths, and using debuggers</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/jpeg;base64,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" /></div>
+          <h2>C Program</h2>
+          <p>Learn about loops (for, while, and do...while) and conditional statements (if, else, switch).
+            Explore how to break out of loops or skip iterations.
+            Functions and Pointers:
+            Master user-defined functions and their types.
+            Understand pointers and their relationship with arrays.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://th.bing.com/th?id=OIP.om_WskX4dAcy5BxFVjegBwHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" /></div>
+          <h2>Web Design</h2>
+          <p> A UI/UX designer is a professional who combines user interface (UI) and user experience (UX) design to create products and services that are usable, enjoyable, and accessible to users. Their primary focus is to improve user experience and satisfaction with digital products, including websites, mobile apps, and software1.
+             Here are the key responsibilities of a UI/UX designer:</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Digital Marketing Website</h2>
+            <p>Our Digital marketing is not just like others list this will improve your search and online presence better.
+               Our team is made up of award-winning marketers, designers, and developers, and 
+               we know what it takes to get real results online. 
+               We also keep the focus on the metrics that mean the most, like leads and revenue generated. 
+               We know that hitting these goals is what moves businesses forward, and we believe that our clients
+                success is the best measure of our own performance. Through our years of experience, we’ve also learned that while each channel has its own set of advantages,
+               they all work best when strategically paired with other channels</p>
+               <a href="https://kathiravana.github.io/Task2./">project </a>
+          </div>
+          <div class="project-img">
+            <img src="https://media.istockphoto.com/id/1062932822/photo/digital-marketing-manager-working-on-social-media-network-internet-website-mobile-and-email.jpg?s=1024x1024&w=is&k=20&c=STOOGlgPBxo1vUH79UJ5r1jS18dZqvFs-iWZ37hZbvg=" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>calcuter</h2>
+            <p> html is a design language that improves the aesthetic of a website by making simple or uninteresting text more appealing. 
+              CSS is responsible for visual structure and layout, whereas HTML is primarily responsible for textual information. 
+              HTML is a markup language, whereas CSS is a style sheet language. 
+              It is responsible for describing the presentation of an HTML or XML document (including XML dialects such as SVG, MathML or XHTML).
+               CSS specifies how elements should appear on a screen, on paper, in speech, or in other forms of media.</p>
+          </div>
+          <div class="project-img">
+            <img src="https://assets-global.website-files.com/63f8ca18cae2585db28fd75b/63f8ca18cae2581fd38fd87a_create-interactive-website-calculator-on-webflow.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>IETE WEB SITE development</h2>
+            <p>LThe Institution of Electronics and  Telecommunication Engineers (IETE) is India's leading recognized professional society devoted to the advancement of science, technology, electronics, telecommunication and information technology. Founded in 1953,
+               it serves more than 70,000+ members through 60+ centers/sub centers primarily located in India (3 abroad)</p>
+          </div>
+          <div class="project-img">
+            <img src="https://news.vidyaacademy.ac.in/wp-content/uploads/2018/12/iete.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>FACE  Recognition </h2>
+            <p>Face recognition is a method of identifying or verifying a person’s face from images or video frames. Without any effort, we can immediately recognize the faces. But it is a challenging task for a computer. Low resolution, occlusion, lighting fluctuations, and other factors all add to the complexity, and hence face recognition and detection process becomes difficult.
+               These parameters have a significant impact on the computer’s ability to detect faces more accurately.</p>
+          </div>
+          <div class="project-img">
+            <img src="https://th.bing.com/th?id=OSK.HEROk0G2ivkdg2aTtNiE39_e-9gbfdwxYOtsHlSNKHrgM7M&w=384&h=228&c=1&rs=2&o=6&pid=SANGAM" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
+            <p>A coding portfolio lays the foundation for the best tech jobs across countless software fields. Whether you want to become a software developer, mobile app developer, user experience designer, or software engineer, 
+              knowing how to make a coding portfolio will help you get better career advancement opportunities even faster</p>
+          </div>
+          <div class="project-img">
+            <img src="https://th.bing.com/th/id/OIP.RGavCMLrzmifUR6DjWWMcAHaFj?w=1600&h=1200&rs=1&pid=ImgDetMain" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="https://media.licdn.com/dms/image/D5622AQErMQqSlxdfBA/feedshare-shrink_1280/0/1718814143140?e=1721865600&v=beta&t=jm8OqzkQ8mns16XhRqLSnlCn_mhdXvvkKs69UfNM480"alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>Aspiring software engineer with a comprehensive background in programming, web design, and data analytics, complemented by hands-on experience in python programming and web development through internships.
+          Demonstrated ability to manage projects and coordinate events, eager to leverage skills in a dynamic and challenging work environment to contribute effectively to team success and organizational growth</p>
+        <a href="https://drive.google.com/file/d/1i0aPUXObzeiUXdtchb1KAs9vtNJuccnt/view?usp=drivesdk" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+919150776692</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>kathiravansk228@gmail.com</h2>
+            <h2>abcd@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Kolathur,chennai</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span></span>Kathiravan <span>A</span></h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/profile.php?id=100029513026571&mibextid=JRoKGi"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/call_me_vip_kathir?igsh=ODFjM2doOHJlMmh1"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/kathiravan-sk-5aaa81241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="https://img.icons8.com/?size=100&id=108812&format=png&color=000000" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/KathiravanA"><img src="https://img.icons8.com/?size=100&id=118553&format=png&color=000000" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2023 kathiravan. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
